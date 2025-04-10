@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #061c2d;
+    height: 105vh;
+    width: auto;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-around;
+    padding: 18px 25px;
+}
+.text a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.text-1 span{
+    color: #00aeff;
+}
+.text a:hover{
+color: #fff;
+}
+.text a::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    width: 0px;
+    height: 3px;
+    background-color: #00aeff;
+    transition: all .5s ease;
+}
+.text a:hover::before{
+width:100%;
+}
+.box{
+    background-color: #035ca3;
+    opacity: .95;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 5rem ;
+    gap: 2rem;
+border-radius: 20px;
+margin: 2rem;
+}
+.box1, .box2, .box3 {
+    background-color: #fff;
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+img {
+    width: 100%; 
+    height: 300px;
+    object-fit: cover; 
+}
+.box1 h1{
+    color: rgb(200, 255, 0);
+    top: 50px;
+}
+.essay {
+    padding: 1rem;
+    font-size: 16px;
+    color: #333;
+}
+.box1 h2, .box2 h2, .box3 h2{
+    text-align: center;
+    text-decoration: underline;
+    margin: 1rem 0 0.5rem 0;
+    font-size: 24px;
+    color: #035ca3;
+
+}
